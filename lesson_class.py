@@ -8,4 +8,6 @@ Vika.setAge(23) # создали запрос на изменение возра
 Vika.sayAge() # создали запрос на проверку изменения возраста
 
 card = Card('1234 1234 1234 1234', '11/28', 'Vika M')
-card.pay(1000)
+
+Vika.addCard(card)
+Vika.getCard().pay(1000)
